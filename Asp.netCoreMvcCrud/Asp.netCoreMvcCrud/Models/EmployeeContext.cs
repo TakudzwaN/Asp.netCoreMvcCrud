@@ -12,5 +12,7 @@ namespace Asp.netCoreMvcCrud.Models
         {
             
         }
+
+        public DbSet<Employee> Employees { get; set; }
     }
 }
